@@ -59,7 +59,7 @@ a {
   border-radius: 50px;
   box-shadow: 0 0 10px #0b0d17;
   color: #e2e8f0;
-  margin-top: 40px;
+  margin-top: 100px;
   padding: 1rem 2rem;
   overflow: hidden;
 }
@@ -110,6 +110,50 @@ strong:hover {
   height: 100vh;
   transform: scale(1.4);
   z-index: -1;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #000000;
+  margin-top: 160px;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.card-title {
+  text-align: center;
+  color: #e2e8f0;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.card-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #5bacc0;
+}
+
+.card-text {
+  color: #e2e8f0;
+  text-align: center;
 }
 
 /*Deep Navy    #0b132b
