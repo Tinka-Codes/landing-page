@@ -2,10 +2,15 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   min-height: 100vh;
-  padding: 20px;
+
   display: flex;
   flex-direction: column;
   background: linear-gradient(90deg, #0b0d17, #03283a);
+}
+
+.main-content {
+  flex: 1;
+  margin: 100px;
 }
 
 .header {
@@ -16,6 +21,7 @@ body {
   justify-content: space-between;
   border-radius: 2rem;
   box-shadow: 0 0 10px #c0f2ff;
+  margin: 30px;
 }
 
 .nav-logo {
@@ -59,7 +65,7 @@ a {
   border-radius: 50px;
   box-shadow: 0 0 10px #0b0d17;
   color: #e2e8f0;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   padding: 1rem 2rem;
   overflow: hidden;
 }
@@ -172,7 +178,7 @@ strong:hover {
 }
 
 .quote-text {
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -212,7 +218,15 @@ strong:hover {
   cursor: pointer;
 }
 
-/*Deep Navy    #0b132b
-Ocean Blue   #1c2541
-Aqua Glow    #5bc0be
-*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0f2ff;
+  background-color: #88b5cf2d;
+  padding: 8px;
+}
+
+.content {
+  flex: 1;
+}
