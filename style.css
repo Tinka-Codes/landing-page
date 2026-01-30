@@ -89,6 +89,7 @@ a {
   background-color: #1c2541;
   color: #aae0ff;
   box-shadow: 0 0 10px #5bacc0;
+  cursor: pointer;
 }
 
 .hero-image {
@@ -121,6 +122,7 @@ strong:hover {
   margin-top: 160px;
   padding: 50px;
   padding-bottom: 100px;
+  background: linear-gradient(90deg, #03283a, #0b0d17);
 }
 
 .card-title {
@@ -166,6 +168,7 @@ strong:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  background: linear-gradient(90deg, #03283a, #0b0d17);
 }
 
 .quote-text {
@@ -175,6 +178,38 @@ strong:hover {
 
 .quote-author {
   font-weight: bold;
+}
+
+.cta {
+  color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #88d2f7;
+  background: linear-gradient(90deg, #03283a, #0b0d17);
+}
+
+.cta-btn {
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: #88b5cf;
+  color: #0b0d17;
+  padding: 5px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #afbeff;
+}
+
+.cta-btn:hover {
+  background-color: #1c2541;
+  color: #aae0ff;
+  box-shadow: 0 0 10px #5bacc0;
+  cursor: pointer;
 }
 
 /*Deep Navy    #0b132b
